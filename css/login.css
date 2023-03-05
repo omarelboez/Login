@@ -1,0 +1,135 @@
+:root {
+    --main-color: rgb(220, 0, 0);
+    --secondary-color: rgb(255, 255, 255);
+    --background-color: rgb(5, 10, 25);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: var(--background-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--secondary-color);
+}
+
+h1 {
+    margin-bottom: 20px;
+    letter-spacing: 2.5px;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: var(--main-color);
+}
+
+p {
+    display: inline;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.special-heading {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.login {
+    width: 360px;
+    padding: 15px 15px;
+    margin: 35px auto;
+    background-color: rgb(20, 30, 100);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+
+form input {
+    height: 50px;
+    width: 90%;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    transition: 0.4s;
+    color: var(--main-color);
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+form input:hover {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+}
+
+button {
+    width: 90%;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 8px 0;
+    background-color: var(--main-color);
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+}
+
+.sign-up {
+    margin-top: 15px;
+}
+
+.sign-up input {
+    height: 15px;
+    width: 25px;
+    cursor: pointer;
+    vertical-align: widdle;
+    transition: 0.4s;
+}
+
+
+.if-already {
+    margin-top: 15px;
+}
+
+.icons {
+    margin-top: 17px;
+}
+
+.icons i {
+    margin-right: 22px;
+    transition: 0.4s;
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+.icons i:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+form input {
+    font-size: 17px;
+}
